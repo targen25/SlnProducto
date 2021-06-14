@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\02. Services\Producto.Service.BusinessLogic\Producto.Service.BusinessLogic.csproj" />
+    <ProjectReference Include="..\..\02. Services\Producto.Service.Interfaces\Producto.Service.Interfaces.csproj" />
+    <ProjectReference Include="..\..\05. Common\Producto.Common\Producto.Common.csproj" />
+  </ItemGroup>
+
+
+</Project>

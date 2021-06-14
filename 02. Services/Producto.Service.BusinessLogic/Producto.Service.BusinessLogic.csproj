@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\03. Persistence\Producto.Persistence.Data\Producto.Persistence.Data.csproj" />
+    <ProjectReference Include="..\..\03. Persistence\Producto.Persistence.Interfaces\Producto.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\..\04. Models\Producto.Model\Producto.Model.csproj" />
+    <ProjectReference Include="..\Producto.Service.Interfaces\Producto.Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
