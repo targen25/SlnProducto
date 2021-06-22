@@ -140,6 +140,8 @@ namespace ApiProducto.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogWarning("Error :"+ex.Message);
+                Logger.RegistroLog(ex.Message);
                 oEProductoResul.cachePais = "El cache expiró";
                 oEProductoResul.cacheCiudad = "El cache expiró";
 
